@@ -62,7 +62,7 @@ if(!correctguess){
 		wrongletter.appendChild(text); 
 		WrongCount++;
 		var hangman = document.getElementById("hangman");
-	    hangman.src = "../week-3-game/assets/images/hangman" +WrongCount+ ".jpg";
+	    hangman.src = "assets/images/hangman" +WrongCount+ ".jpg";
 	    var countfield = document.getElementById("triesleft");
 	    countfield.innerHTML = "Tries Left: "+(6-WrongCount);
 		}
